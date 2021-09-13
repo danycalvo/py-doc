@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM python:3
+FROM python:latest
 #FROM python:3.8-slim-buster
 # ROM registry.access.redhat.com/ubi8/python-38
 WORKDIR /app
